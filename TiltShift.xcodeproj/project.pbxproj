@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CC8EF17209BCAE900FC3C86 /* PostProcessImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8EF16209BCAE900FC3C86 /* PostProcessImageOperation.swift */; };
 		2280BCB21BFD563C00CCDBD1 /* PostProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280BCB11BFD563C00CCDBD1 /* PostProcess.swift */; };
 		2280BCC21BFD641300CCDBD1 /* sample_01_small.compressed in Resources */ = {isa = PBXBuildFile; fileRef = 2280BCB91BFD641300CCDBD1 /* sample_01_small.compressed */; };
 		2280BCC31BFD641300CCDBD1 /* sample_02_small.compressed in Resources */ = {isa = PBXBuildFile; fileRef = 2280BCBA1BFD641300CCDBD1 /* sample_02_small.compressed */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CC8EF16209BCAE900FC3C86 /* PostProcessImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProcessImageOperation.swift; sourceTree = "<group>"; };
 		2280BCB11BFD563C00CCDBD1 /* PostProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostProcess.swift; sourceTree = "<group>"; };
 		2280BCB91BFD641300CCDBD1 /* sample_01_small.compressed */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_01_small.compressed; sourceTree = "<group>"; };
 		2280BCBA1BFD641300CCDBD1 /* sample_02_small.compressed */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_02_small.compressed; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				4026D7E91DC42495003DA9EF /* ImageDecompressionOperation.swift */,
 				4026D7E61DC42495003DA9EF /* TiltShiftOperation.swift */,
 				4026D7E71DC42495003DA9EF /* ImageFilterOutputOperation.swift */,
+				1CC8EF16209BCAE900FC3C86 /* PostProcessImageOperation.swift */,
 			);
 			name = Operations;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				22E6E6541BFC5C3100815B9E /* TiltShiftImage.swift in Sources */,
 				4026D7EC1DC42495003DA9EF /* TiltShiftOperation.swift in Sources */,
 				4026D7ED1DC42495003DA9EF /* ImageFilterOutputOperation.swift in Sources */,
+				1CC8EF17209BCAE900FC3C86 /* PostProcessImageOperation.swift in Sources */,
 				22E6E6371BFC258C00815B9E /* Compressor.swift in Sources */,
 				4026D7EF1DC42495003DA9EF /* ImageDecompressionOperation.swift in Sources */,
 				22E6E61E1BFC233F00815B9E /* AppDelegate.swift in Sources */,
